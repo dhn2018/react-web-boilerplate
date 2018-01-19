@@ -8,6 +8,11 @@ export default [
 
     {key: 'animation-table', parentKey: 'example', text: '表格', icon: 'table', path: '/example/zk-table'},
 
+    {key: 'test', parentKey: 'example', text: '练习', icon: 'dashboard', order: 10010},
+    {key: 'test/1', parentKey: 'test', text: '练习1', path: '/test/1'},
+    {key: 'test/2', parentKey: 'test', text: '练习2', path: '/test/2'},
+
+
     {key: 'dashboard', parentKey: 'example', text: 'Dashboard', icon: 'dashboard', order: 10009},
     {key: 'dashboard/analysis', parentKey: 'dashboard', text: '分析页', path: '/dashboard/analysis'},
     {key: 'dashboard/monitor', parentKey: 'dashboard', text: '监控页', path: '/dashboard/monitor'},
